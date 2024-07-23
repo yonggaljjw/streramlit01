@@ -17,7 +17,7 @@ with st.sidebar:
         "시작일 - 종료일", (datetime.date(datetime.date.today().year,1,1), datetime.date.today()),
         max_value=datetime.date.today()
     )
-    search_btn = st.button("주가 데이터 확인")
+    search_btn = st.button("주식 데이터 확인")
 
 
 st.title('무슨 주식을 사야 부자가 되려나...')
